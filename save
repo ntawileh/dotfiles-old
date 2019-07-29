@@ -1,0 +1,13 @@
+#!/bin/bash
+
+FILES=`find ./ -name save.sh | grep "DOTFILES.META/save.sh" 2>/dev/null`
+
+for f in $FILES
+do
+	echo "Running $f..."
+	`$f`
+done	
+
+echo "here now"
+git add .
+git commit
