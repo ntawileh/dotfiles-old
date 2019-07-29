@@ -15,7 +15,7 @@ if [[ ! -d ${DIR} ]]; then
     exit 1
 fi    
 
-stow ${DIR}
+stow -vvvv --ignore=DOTFILES\.META ${DIR}
 
 if [[ -x ${DIR}/DOTFILES.META/restore.sh ]]; then
     echo "Running ${DIR}/DOTFILES.META/restore.sh..."

@@ -20,8 +20,8 @@ used to create symbolic links of the files.
 DOTFILES.META
 -------------
 
-This is a special directory that you can create which should be ignored
-by stow using .stow-local-ignore.  See my vscode/ directory as an example.
+This is a special directory that you can create which will be ignored
+by the installer and stow.  See vscode/DOTFILES.META directory as an example.
 
 If DOTFILES.META contains a save.sh file, it will get executed when the
 top-level save script is run.  
@@ -38,4 +38,4 @@ Example for vscode:
 License
 -------
 
-[MIT](http://opensource.org/licenses/MIT).
+[MIT](http://opensource.org/licenses/MIT)
