@@ -1,0 +1,21 @@
+#!/bin/bash
+
+if ! hash stow 2>/dev/null; then
+    echo "stow is required.  please install."
+    exit 1
+fi    
+
+DIR=$1
+
+if [[ ! -d ${DIR} ]]; then
+    echo "Usage: $0 <directory>"
+    echo "For example: $0 vim"
+    exit 1
+fi    
+
+stow ${DIR}
+
+if [[ -x ${DIR}/DOTFILES.META/restore.sh ]]; then
+    echo "Running ${DIR}/DOTFILES.META/restore.sh..."
+    ${DIR}/DOTFILES.META/restore.sh
+fi
