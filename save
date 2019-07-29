@@ -8,6 +8,5 @@ do
 	`$f`
 done	
 
-echo "here now"
 git add .
 git commit
