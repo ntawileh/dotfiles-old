@@ -1,0 +1,23 @@
+{
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "editor.fontFamily": "\"Fira Code\"",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.openPositioning": "first",
+    "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}${separator}${dirty}",
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "material-icon-theme.activeIconPack": "react_redux",
+    "workbench.colorTheme": "Solarized Dark",
+    "eslint.alwaysShowStatus": true,
+    "files.associations": {
+        "*.js": "javascriptreact"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+}

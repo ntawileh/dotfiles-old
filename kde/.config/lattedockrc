@@ -1,0 +1,24 @@
+[KPropertiesDialog]
+Height 1080=508
+Width 1920=540
+
+[Notification Messages]
+really_clear_history=true
+
+[PlasmaRunnerManager]
+LaunchCounts=1 recentdocuments_file:///home/dmin/Documents/resume-nadimtawileh(1p).pdf,3 services_plasma-discover --mode update,1 services_org.kde.ktorrent.desktop,1 services_spectacle -m,1 services_org.kde.knotes.desktop,2 services_vlc.desktop,13 services_org.kde.spectacle.desktop,1 services_powerdevilprofilesconfig.desktop,1 services_gnome-system-monitor_gnome-system-monitor.desktop,1 services_plank.desktop,1 services_powerdevilglobalconfig.desktop,1 services_kamera.desktop,27 services_kcm_kscreen.desktop,20 services_virtualbox.desktop,1 services_android-studio_android-studio.desktop,2 services_skype_skypeforlinux.desktop,1 services_shotwell.desktop,1 places_baloosearch:?json=%7B%22dayFilter%22: 0\\, %22monthFilter%22: 0\\, %22yearFilter%22: 0\\, %22type%22: [ %22Document%22]%7D,2 services_telegramdesktop.desktop,1 services_bluedevildevices.desktop,1 services_cheese.desktop,1 services_kcm_networkmanagement.desktop,1 services_obs.desktop,10 services_torbrowser.desktop,1 recentdocuments_file:///home/dmin/dev/kiwi,3 services_google-chrome.desktop,1 shell_docker,1 services_gimp_gimp.desktop,1 services_fontinst.desktop,3 services_screenlocker.desktop,1 services_simple-scan.desktop,1 shell_dicomscope,20 services_code.desktop,4 services_org.gnome.DiskUtility.desktop,10 services_systemsettings.desktop,3 services_com.teamviewer.TeamViewer.desktop,6 services_firefox.desktop,2 services_subsurface.desktop,2 services_org.kde.dolphin.desktop,2 services_org.kde.discover.desktop,5 services_about-distro.desktop,6 services_gnome-calculator_gnome-calculator.desktop,5 services_org.gnome.Software.desktop,9 services_update-manager.desktop,5 services_kcm_phonon.desktop,1 baloosearch_/home/dmin/dev/kiwi
+pluginWhiteList=services,places,desktopsessions,PowerDevil,shell,bookmarks,recentdocuments,locations,baloosearch
+
+[ScreenConnectors]
+10=eDP-1
+11=DP-2
+12=DVI-I-1-1
+13=DP-1
+
+[UniversalSettings]
+currentLayout=Plasma
+lastNonAssignedLayout=Plasma
+launchers=
+layoutsWindowSize=700,450
+showInfoWindow=true
+version=2

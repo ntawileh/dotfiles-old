@@ -1,0 +1,6 @@
+[submodule "bash/.bash-git-prompt"]
+	path = bash/.bash-git-prompt
+	url = https://github.com/magicmonty/bash-git-prompt.git
+[submodule "tmux/.tmux"]
+	path = tmux/.tmux
+	url = https://github.com/gpakosz/.tmux.git
