@@ -77,4 +77,4 @@ ButtonsOnLeft=MS
 ButtonsOnRight=HIAX
 CloseOnDoubleClickOnMenu=false
 library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Sweet-Dark
+theme=__aurorae__svg__Sweet-Dark-transparent

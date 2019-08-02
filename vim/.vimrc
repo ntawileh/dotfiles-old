@@ -1,6 +1,3 @@
-set autoindent
-set cindent
-
 if has("syntax")
   syntax on
 endif
@@ -10,11 +7,19 @@ if &term =~ "xterm"
         set background=dark
 endif
 
+set autoindent
+set cindent
+set noswapfile
+set smartindent
+set splitbelow
+set splitright
+set shiftwidth=4
+set tabstop=4
 set nocompatible        " Disable vi compatibility.
+set number
 set nobackup            " Do not keep a backup file.
 set history=100         " Number of lines of command line history.
 set undolevels=200      " Number of undo levels.
-set textwidth=0         " Don't wrap words by default.
 set showcmd             " Show (partial) command in status line.
 set showmatch           " Show matching brackets.
 set showmode            " Show current mode.
@@ -27,7 +32,6 @@ set modeline            " Enable modeline.
 "set esckeys             " Cursor keys in insert mode.
 set gdefault            " Use 'g' flag by default with :s/foo/bar/.
 set magic               " Use 'magic' patterns (extended regular expressions).
-set tabstop=8           " Number of spaces <tab> counts for.
 set ttyscroll=0         " Turn off scrolling (this is faster).
 set ttyfast             " We have a fast terminal connection.
 set hlsearch            " Highlight search matches.
@@ -73,8 +77,9 @@ Plug 'junegunn/vim-easy-align'
 
 " Any valid git URL is allowed
 Plug 'https://github.com/junegunn/vim-github-dashboard.git'
-
 Plug 'sainnhe/vim-color-forest-night'
+Plug 'scrooloose/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 
 " Initialize plugin system
 call plug#end()
