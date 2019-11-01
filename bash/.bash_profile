@@ -9,7 +9,7 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 export EDITOR=vi
 
-export _JAVA_OPTIONS=“-Xmx2g”
+#export _JAVA_OPTIONS=“-Xmx2g”
 
 alias ls='ls -G'
 alias ll='ls -Ghlrt'

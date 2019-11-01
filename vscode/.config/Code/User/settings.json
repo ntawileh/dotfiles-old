@@ -27,4 +27,5 @@
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "C_Cpp.default.intelliSenseMode": "clang-x64",
 }
