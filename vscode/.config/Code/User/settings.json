@@ -28,4 +28,5 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "C_Cpp.default.intelliSenseMode": "clang-x64",
+    "diffEditor.ignoreTrimWhitespace": false,
 }
