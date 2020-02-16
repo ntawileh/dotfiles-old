@@ -18,3 +18,4 @@ alias p="pwd"
 alias filemanager='xdg-open . >/dev/null 2>&1'
 
 . ~/.bashrc
+. ~/.bash-git-prompt/gitprompt.sh
