@@ -6,6 +6,8 @@ export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+export PATH=$PATH:/usr/local/go/bin
+
 
 export EDITOR=vi
 
@@ -19,3 +21,5 @@ alias filemanager='xdg-open . >/dev/null 2>&1'
 
 . ~/.bashrc
 . ~/.bash-git-prompt/gitprompt.sh
+#~/bin/bonsai -M 5 -g 30,15
+~/bin/bonsai
