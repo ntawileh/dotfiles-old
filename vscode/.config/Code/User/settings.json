@@ -19,7 +19,7 @@
     "[javascriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.iconTheme": "vscode-icons",
     "vsicons.dontShowNewVersionMessage": true,
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -29,4 +29,5 @@
     },
     "C_Cpp.default.intelliSenseMode": "clang-x64",
     "diffEditor.ignoreTrimWhitespace": false,
+    "arduino.path": "/usr/share/arduino",
 }
