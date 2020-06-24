@@ -80,6 +80,7 @@ Plug 'https://github.com/junegunn/vim-github-dashboard.git'
 Plug 'sainnhe/vim-color-forest-night'
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 
 " Initialize plugin system
 call plug#end()

@@ -9,3 +9,5 @@ set -g theme_color_scheme dracula
 alias vi="vim"
 alias p="pwd"
 alias filemanager='xdg-open . >/dev/null 2>&1'
+
+export EDITOR=vim
