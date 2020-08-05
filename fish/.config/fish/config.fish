@@ -11,3 +11,6 @@ alias p="pwd"
 alias filemanager='xdg-open . >/dev/null 2>&1'
 
 export EDITOR=vim
+
+export GOPATH={$HOME}/go
+export GOBIN={$GOPATH}/bin
