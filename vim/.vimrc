@@ -44,8 +44,6 @@ set viminfo='20,\"50
 nmap <F1> :set hls!<CR>
 map <F4> :r !date<CR>A Nadim Tawileh <nadim@tawileh.com><CR><CR> * |
 
-map V :!ispell -x %<CR>:e!<CR><CR>
-
 " Function to toggle line numbers using F10
 let ln_mode = 0 " 0 = hidden, 1 = visible
 func! Ln_on_off()
@@ -81,6 +79,10 @@ Plug 'sainnhe/vim-color-forest-night'
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'prettier/vim-prettier', {
+  \ 'do': 'yarn install',
+  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
+
 
 " Initialize plugin system
 call plug#end()

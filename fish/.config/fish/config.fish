@@ -11,6 +11,7 @@ set -g theme_display_hostname ssh
 set -g theme_display_sudo_user yes
 #set -g theme_powerline_fonts no
 set -g theme_nerd_fonts yes
+set -g theme_display_ruby no
 
 
 
@@ -24,5 +25,4 @@ export GOPATH={$HOME}/go
 export GOBIN={$GOPATH}/bin
 
 # The next line updates PATH for the Google Cloud SDK.
-echo "hi"
 if [ -f "$HOME/google-cloud-sdk/path.fish.inc" ]; . "$HOME/google-cloud-sdk/path.fish.inc"; end

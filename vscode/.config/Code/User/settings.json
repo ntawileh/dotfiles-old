@@ -1,37 +1,43 @@
 {
-    "git.confirmSync": false,
-    "git.autofetch": true,
-    "editor.fontFamily": "'JetBrains Mono'",
-    "editor.fontLigatures": true,
-    "editor.fontSize": 16,
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.editor.highlightModifiedTabs": true,
-    "workbench.editor.openPositioning": "first",
-    "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}${separator}${dirty}",
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
-    "material-icon-theme.activeIconPack": "react_redux",
-    "workbench.colorTheme": "Solarized Dark",
-    "eslint.alwaysShowStatus": true,
-    "files.associations": {
-        "*.js": "javascriptreact"
-    },
-    "[javascriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "workbench.iconTheme": "vscode-icons",
-    "vsicons.dontShowNewVersionMessage": true,
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "C_Cpp.default.intelliSenseMode": "clang-x64",
-    "diffEditor.ignoreTrimWhitespace": false,
-    "arduino.path": "/usr/share/arduino",
-    "editor.formatOnSave": true,
-    "typescript.preferences.quoteStyle": "single",
-    "javascript.preferences.quoteStyle": "single",
-    "prettier.singleQuote": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "editor.fontFamily": "'JetBrains Mono'",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.openPositioning": "first",
+  "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}${separator}${dirty}",
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "material-icon-theme.activeIconPack": "react_redux",
+  "workbench.colorTheme": "Solarized Dark",
+  "eslint.alwaysShowStatus": true,
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "vsicons.dontShowNewVersionMessage": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "C_Cpp.default.intelliSenseMode": "clang-x64",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "arduino.path": "/usr/share/arduino",
+  "editor.formatOnSave": true,
+  "typescript.preferences.quoteStyle": "single",
+  "javascript.preferences.quoteStyle": "single",
+  "prettier.singleQuote": true,
+  "vim.cursorStylePerMode.normal": "block",
+  "vim.useSystemClipboard": true,
+  "vim.handleKeys": {
+    "<C-b>": false,
+    "<C-d>": false
+  }
 }
