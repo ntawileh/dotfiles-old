@@ -41,6 +41,8 @@ set foldmethod=marker
 set nostartofline
 set viminfo='20,\"50
 
+set re=0
+
 nmap <F1> :set hls!<CR>
 map <F4> :r !date<CR>A Nadim Tawileh <nadim@tawileh.com><CR><CR> * |
 
@@ -88,4 +90,4 @@ Plug 'prettier/vim-prettier', {
 call plug#end()
 
 
-colorscheme forest-night
+"colorscheme forest-night

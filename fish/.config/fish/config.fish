@@ -17,12 +17,14 @@ set -g theme_display_ruby no
 
 alias vi="vim"
 alias p="pwd"
-alias filemanager='xdg-open . >/dev/null 2>&1'
+alias filemanager='open . >/dev/null 2>&1'
 
-export EDITOR=vim
+set -gx EDITOR vim
+set -gx PATH $PATH $HOME/bin /usr/local/bin /usr/bin /bin /usr/sbin /sbin
 
-export GOPATH={$HOME}/go
-export GOBIN={$GOPATH}/bin
+
+set -gx GOPATH $HOME/go
+set -gx GOBIN $GOPATH/bin
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f "$HOME/google-cloud-sdk/path.fish.inc" ]; . "$HOME/google-cloud-sdk/path.fish.inc"; end
