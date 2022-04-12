@@ -11,7 +11,6 @@
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
   "material-icon-theme.activeIconPack": "react_redux",
-  "workbench.colorTheme": "Solarized Dark",
   "eslint.alwaysShowStatus": true,
   "files.associations": {
     "*.js": "javascriptreact"
@@ -54,5 +53,10 @@
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter.notebook.ipynb"
   },
-  "explorer.confirmDelete": false
+  "explorer.confirmDelete": false,
+  "redhat.telemetry.enabled": false,
+  "terminal.integrated.defaultProfile.osx": "fish",
+  "editor.bracketPairColorization.enabled": true,
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.preferredDarkColorTheme": "One Dark Pro"
 }
