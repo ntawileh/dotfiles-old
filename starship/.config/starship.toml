@@ -13,7 +13,7 @@ error_symbol = "[✗](bold red) "
 show_milliseconds=true
 show_notifications=true
 min_time_to_notify=45_000
-format = '[\[⏱ $duration\]]($style)'
+format = '[ ⏱  $duration]($style)'
 style="yellow"
 
 [aws]
