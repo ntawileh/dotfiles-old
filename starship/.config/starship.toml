@@ -61,7 +61,8 @@ symbol = " "
 
 [git_branch]
 symbol = " "
-style="bold cyan"
+format="[\\[$symbol$branch\\]]($style) "
+style="fg:#bf5700" 
 #ignore_branches = ["master", "main"]
 
 [git_state]
@@ -101,6 +102,7 @@ symbol = " "
 [nodejs]
 symbol = ""
 format="[\\[$symbol($version)\\]]($style)"
+style="green"
 
 [package]
 symbol = " "
