@@ -1,5 +1,4 @@
 casualjim.gotemplate
-CoenraadS.bracket-pair-colorizer-2
 Dart-Code.dart-code
 Dart-Code.flutter
 dbaeumer.vscode-eslint
@@ -13,8 +12,13 @@ kumar-harsh.graphql-for-vscode
 mikestead.dotenv
 ms-azuretools.vscode-docker
 ms-python.python
+ms-python.vscode-pylance
+ms-toolsai.jupyter
+ms-toolsai.jupyter-keymap
+ms-toolsai.jupyter-renderers
 ms-vscode.cpptools
 Orta.vscode-jest
+platformio.platformio-ide
 shanoor.vscode-nginx
 vsciot-vscode.vscode-arduino
 vscode-icons-team.vscode-icons
