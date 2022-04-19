@@ -10,8 +10,8 @@
 # to the user's home directory starting with `~/`.
 import:
   #- ~/dotfiles/alacritty/.config/cobalt.yml
-  - ~/dotfiles/alacritty/.config/tomorrow-night.yml
-    #- ~/dotfiles/alacritty/.config/dracula.yml
+  - ~/dotfiles/alacritty/.config/night-owl.yml
+  #- ~/dotfiles/alacritty/.config/dracula.yml
 
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
