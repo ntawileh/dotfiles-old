@@ -17,9 +17,11 @@ set -g theme_display_ruby no
 alias vi="vim"
 alias p="pwd"
 alias filemanager='open . >/dev/null 2>&1'
+alias get_idf=". $HOME/esp/esp-idf/export.fish"
 
+set -gx IDF_PATH $HOME/esp/esp-idf
 set -gx EDITOR vim
-set -gx PATH $PATH $HOME/bin /usr/local/bin /usr/bin /bin /usr/sbin /sbin
+set -gx PATH $PATH $HOME/bin /usr/local/bin /usr/bin /bin /usr/sbin /sbin /usr/local/opt/python@3/libexec/bin
 
 
 set -gx GOPATH $HOME/go

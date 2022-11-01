@@ -762,7 +762,13 @@ hints:
 #
 # If the same trigger is assigned to multiple actions, all of them are executed
 # in the order they were defined in.
-#key_bindings:
+key_bindings:
+  - { key: C,         mods: Alt,       chars: "\x1bc"                       }
+  - { key: C,         mods: Alt|Shift, chars: "\x1bC"                       }
+  - { key: O,         mods: Alt,       chars: "\x1bo"                       }
+  - { key: O,         mods: Alt|Shift, chars: "\x1bO"                       }
+
+
   #- { key: Paste,                                       action: Paste          }
   #- { key: Copy,                                        action: Copy           }
   #- { key: L,         mods: Control,                    action: ClearLogNotice }
