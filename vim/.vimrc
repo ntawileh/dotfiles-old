@@ -40,6 +40,7 @@ set foldmethod=marker
 
 set nostartofline
 set viminfo='20,\"50
+set rtp+=/usr/local/opt/fzf
 
 set re=0
 
