@@ -52,7 +52,6 @@
   "redhat.telemetry.enabled": false,
   "terminal.integrated.defaultProfile.osx": "fish",
   "editor.bracketPairColorization.enabled": true,
-  "workbench.colorTheme": "Solarized Dark",
   "workbench.preferredDarkColorTheme": "One Dark Pro",
   "editor.minimap.enabled": false,
   "workbench.productIconTheme": "fluent-icons",
@@ -68,5 +67,6 @@
   "idf.customExtraPaths": "/Users/nadimtawileh/.espressif/tools/xtensa-esp32-elf/esp-2021r2-patch3-8.4.0/xtensa-esp32-elf/bin:/Users/nadimtawileh/.espressif/tools/xtensa-esp32s2-elf/esp-2021r2-patch3-8.4.0/xtensa-esp32s2-elf/bin:/Users/nadimtawileh/.espressif/tools/xtensa-esp32s3-elf/esp-2021r2-patch3-8.4.0/xtensa-esp32s3-elf/bin:/Users/nadimtawileh/.espressif/tools/riscv32-esp-elf/esp-2021r2-patch3-8.4.0/riscv32-esp-elf/bin:/Users/nadimtawileh/.espressif/tools/esp32ulp-elf/2.28.51-esp-20191205/esp32ulp-elf-binutils/bin:/Users/nadimtawileh/.espressif/tools/esp32s2ulp-elf/2.28.51-esp-20191205/esp32s2ulp-elf-binutils/bin:/Users/nadimtawileh/.espressif/tools/cmake/3.23.1/CMake.app/Contents/bin:/Users/nadimtawileh/.espressif/tools/openocd-esp32/v0.11.0-esp32-20220411/openocd-esp32/bin:/Users/nadimtawileh/.espressif/tools/ninja/1.10.2",
   "idf.customExtraVars": "{\"OPENOCD_SCRIPTS\":\"/Users/nadimtawileh/.espressif/tools/openocd-esp32/v0.11.0-esp32-20220411/openocd-esp32/share/openocd/scripts\"}",
   "idf.gitPath": "git",
-  "cmake.configureOnOpen": true
+  "cmake.configureOnOpen": true,
+  "workbench.colorTheme": "One Dark Pro Darker"
 }

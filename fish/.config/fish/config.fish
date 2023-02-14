@@ -18,6 +18,21 @@ alias vi="vim"
 alias p="pwd"
 alias filemanager='open . >/dev/null 2>&1'
 alias get_idf=". $HOME/esp/esp-idf/export.fish"
+alias dot='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+
+# ls
+alias ls='lsd --group-dirs first' 
+alias l='lsd --blocks permission,links,user,size,date,name --date relative -l'
+alias la='ls -A'
+alias lla='l -a'
+alias lt='ls --tree'
+
+# Get External IP
+alias getip='curl -s https://ipinfo.io/json | jq'
+
+# Check Internet Speed
+alias speedtest="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -"
 
 set -gx IDF_PATH $HOME/esp/esp-idf
 set -gx EDITOR vim
